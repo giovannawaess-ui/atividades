@@ -1,6 +1,6 @@
 import models.Cachorro;
 
-public class Main {
+public class Exe {
     public static void main(String[]args){
 
         Cachorro animal= new Cachorro("Bob", 18, "Cinza", "WOLF WOLF");
