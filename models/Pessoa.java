@@ -7,17 +7,17 @@ public class Pessoa {
      private String nome;
      private String cpf;
      private int idade;
-     private List<Cachrro> cachorro;
+     private List<Cachrros> cachorro;
 
      public Pessoa(String nome, String cpf, int idade){
         this.nome = nome;
         this.cpf = cpf;
         this.idade = idade;
-        this.cachorro = new ArrayList<>();
+        this.cachorros = new ArrayList<>();
      }
 
-        public List<Cachrro> getCachorro() {
-            return cachorro;
+        public List<Cachrros> getCachorro() {
+            return cachorros;
         }
      
 }
